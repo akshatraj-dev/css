@@ -1,5 +1,5 @@
 *{
-    background-color: blanchedalmond;
+    background-color: whitesmoke;
     margin: 5;    
     box-sizing: border-box;
 }
@@ -8,10 +8,16 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 25px;
     background-color: darkorange;
-    
 }
 p{
     text-align: center;
+}
+
+nav{
+    border: #333 2px solid;
+    
+
+
 }
 .border{
     border: 2px solid #333;
@@ -24,11 +30,16 @@ li:hover{
     background-color: #333;
     color: whitesmoke;
 }
-
+nav li{
+    border-top: 2px solid #333;
+}
 nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: block;
+    text-align: center;
+    font-size: 20px;
 
 }
 nav li:hover{
@@ -37,6 +48,7 @@ nav li:hover{
     border: 2px solid #333;
     padding: 20px;
     text-align: center;
+    border-top: #333 1px solid;
     
 }
 
@@ -48,13 +60,18 @@ li:last-child{
     border-bottom-left-radius: 25rem;
     border-bottom-right-radius: 25rem;
 }
-div{
-    width: 100px;
+main{
+    height:100vh;
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 50px;
+    position: sticky;
+}
+footer{
+    background-color: blue;
     height: 100px;
-    color: white;
-    background-color: white;
-    border-radius: 25rem;
-    float: right;
     
-    
+}
+html{
+    scroll-behavior: smooth;
 }
